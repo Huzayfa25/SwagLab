@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-22T02:22:38 EDT" name="Surefire suite" finished-at="2022-04-22T02:22:47 EDT" duration-ms="9855">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Test_Runner25.TestRunner25@7a8c8dcf]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-04-22T02:22:38 EDT" name="Surefire test" finished-at="2022-04-22T02:22:47 EDT" duration-ms="9855">
+      <class name="Test_Runner25.TestRunner25">
+        <test-method is-config="true" signature="Setup25()[pri:0, instance:Test_Runner25.TestRunner25@7a8c8dcf]" started-at="2022-04-22T02:22:38 EDT" name="Setup25" finished-at="2022-04-22T02:22:40 EDT" duration-ms="2080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup25 -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Test_Runner25.TestRunner25@7a8c8dcf]" started-at="2022-04-22T02:22:40 EDT" name="setUpClass" finished-at="2022-04-22T02:22:40 EDT" duration-ms="257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@74db12c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Test_Runner25.TestRunner25@7a8c8dcf]" started-at="2022-04-22T02:22:40 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-22T02:22:46 EDT" duration-ms="5828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["1 Successful Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Swag Labs Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Test_Runner25.TestRunner25@7a8c8dcf]" started-at="2022-04-22T02:22:46 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-04-22T02:22:46 EDT" duration-ms="671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["2 Failed Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Swag Labs Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Test_Runner25.TestRunner25@7a8c8dcf]" started-at="2022-04-22T02:22:46 EDT" name="tearDownClass" finished-at="2022-04-22T02:22:47 EDT" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="tearDown25()[pri:0, instance:Test_Runner25.TestRunner25@7a8c8dcf]" started-at="2022-04-22T02:22:47 EDT" name="tearDown25" finished-at="2022-04-22T02:22:47 EDT" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown25 -->
+      </class> <!-- Test_Runner25.TestRunner25 -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
